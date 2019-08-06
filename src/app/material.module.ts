@@ -7,10 +7,14 @@ import {
   MatDatepickerModule,
   MatCheckboxModule,
   MatSidenavModule,
-  MatToolbarModule
+  MatToolbarModule,
+  MatTabsModule,
+  MatCardModule,
+  MatSelectModule
 } from '@angular/material'
 import { MatMomentDateModule } from '@angular/material-moment-adapter'
 import { MatListModule } from '@angular/material/list'
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner'
 
 const matModules = [
   MatButtonModule,
@@ -22,7 +26,11 @@ const matModules = [
   MatCheckboxModule,
   MatSidenavModule,
   MatToolbarModule,
-  MatListModule
+  MatListModule,
+  MatTabsModule,
+  MatCardModule,
+  MatSelectModule,
+  MatProgressSpinnerModule
 ]
 
 @NgModule({
