@@ -5,7 +5,9 @@ import {
   MatFormFieldModule,
   MatInputModule,
   MatDatepickerModule,
-  MatCheckboxModule
+  MatCheckboxModule,
+  MatSidenavModule,
+  MatToolbarModule
 } from '@angular/material'
 import { MatMomentDateModule } from '@angular/material-moment-adapter'
 
@@ -16,7 +18,9 @@ const matModules = [
   MatInputModule,
   MatDatepickerModule,
   MatMomentDateModule,
-  MatCheckboxModule
+  MatCheckboxModule,
+  MatSidenavModule,
+  MatToolbarModule
 ]
 
 @NgModule({
