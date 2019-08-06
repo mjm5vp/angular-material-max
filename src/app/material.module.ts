@@ -10,6 +10,7 @@ import {
   MatToolbarModule
 } from '@angular/material'
 import { MatMomentDateModule } from '@angular/material-moment-adapter'
+import { MatListModule } from '@angular/material/list'
 
 const matModules = [
   MatButtonModule,
@@ -20,7 +21,8 @@ const matModules = [
   MatMomentDateModule,
   MatCheckboxModule,
   MatSidenavModule,
-  MatToolbarModule
+  MatToolbarModule,
+  MatListModule
 ]
 
 @NgModule({
